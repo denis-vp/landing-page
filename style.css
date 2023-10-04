@@ -1,0 +1,211 @@
+/* Properties */
+
+.white-text {
+    color: #F9FAF8;
+}
+
+.light-gray-text {
+    color: #E5E7EB;
+}
+
+.dark-text {
+    color: #1F2937;
+}
+
+.light-gray-background {
+    background-color: #E5E7EB;
+}
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+.blue-background {
+    background-color: #3882F6;
+}
+
+.rounded-corners {
+    border-radius: 12px;
+}
+
+.no-margin-left-right {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* General */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.sign-up-button {
+    box-shadow: none;
+    width: 100px;
+}
+
+/* Header */
+
+.header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.header div {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    margin-left: auto;
+}
+
+.header ul a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main focus */
+
+.main-focus {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main-subtext {
+    font-size: 18px;
+}
+
+.main-focus .sign-up-button {
+    border-color: #3882F6;
+}
+
+.main-focus img {
+    width: 512px;
+}
+
+/* Information */
+
+.information-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 64px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.information-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-image {
+    width: 156px;
+    height: auto;
+    border: 5px solid #3882F6;
+}
+
+.card-text {
+    max-width: 156px;
+    text-align: center;
+    align-self: center;
+}
+
+/* Quote */
+
+.quote {
+    flex: 1;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-owner {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    align-self: flex-end;
+}
+
+/* Sign up */
+
+.sign-up {
+    flex: 1;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 712px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin: 52px;
+}
+
+.sign-up .sign-up-button {
+    border-color: #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+    flex: 1;
+    text-align: center;
+    padding: 24px;
+}
+
