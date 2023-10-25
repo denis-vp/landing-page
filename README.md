@@ -12,6 +12,10 @@ Welcome to the Landing Page Template repository! This HTML and CSS project provi
 - **Responsive Design**: Ensures compatibility with various screen sizes and devices.
 - **Customizable**: Easily modify and expand the template to suit your project's needs.
 
+## View Live
+
+Explore the live version of the Landing Page Template [here](https://denis-vp.github.io/landing-page/).
+
 ## Future Plans
 
 This template is designed to be enhanced and customized to your specific project requirements. Future plans may include the addition of JavaScript functionality, interactivity, and more, based on your needs and goals.
